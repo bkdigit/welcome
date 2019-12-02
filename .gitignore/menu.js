@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('guildMemberAdd', member => {
 
-  const channel = member.guild.channels.find(ch => ch.name === 'test');
+  const channel = member.guild.channels.find(ch => ch.name === 'général');
 
   if (!channel) return;
 
